@@ -1,0 +1,11 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
